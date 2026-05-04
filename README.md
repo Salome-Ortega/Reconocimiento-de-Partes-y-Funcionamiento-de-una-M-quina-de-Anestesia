@@ -15,13 +15,12 @@ La anestesia general produce un estado controlado de inconsciencia, pérdida de 
 <p align="center">
 <img width="600" height="315" alt="image" src="https://github.com/user-attachments/assets/a80f95c9-9ceb-489d-b6fa-0fd3392d7062" />
 </p>
+
 > **La máquina de anestesia WATO EX-20 está diseñada específicamente para administrar anestesia general** mediante agentes inhalatorios mezclados con gases médicos.
 
 #### 1.2 Anestesia regional
 
 La anestesia regional bloquea la sensibilidad de una región amplia del cuerpo, como una pierna, un brazo o la parte inferior del cuerpo. Se aplica cerca de nervios principales o estructuras nerviosas. 
-
-<h3 align="center">Tipos de anestesia regional</h3>
 
 <div align="center">
 
@@ -166,7 +165,7 @@ En la WATO EX-20, los gases que pueden incorporarse mediante el sistema de alta 
 </div>
 
 > No dejar abiertas las válvulas de las botellas cuando se usa el suministro por tuberías, pues se agotan las botellas de reserva.
-
+---
 ### 3. Sistema de Respiración
 
 El sistema de respiración de la máquina de anestesia es el conjunto de elementos que conecta la máquina con la vía aérea del paciente. Su función es entregar la mezcla de gases medicinales y vapores anestésicos, permitir la ventilación manual o mecánica, conducir los gases inspirados y espirados, y facilitar la eliminación del dióxido de carbono mediante el absorbente de CO₂ [4].
@@ -202,6 +201,7 @@ Las partes que podrían esterilizarse por autoclave, siempre que sean reutilizab
 El manual también advierte que no se debe desinfectar en autoclave el sensor de flujo, el sensor de O₂ ni el sistema AGSS. En el caso del sensor de flujo, se especifica directamente que no debe usarse autoclave para su desinfección [4].
 
 
+---
 
 ### 4. Submenus del ventilador
 
@@ -270,9 +270,9 @@ El submenú Ajuste alarma se usa para modificar los límites de alarma del venti
 
 También incluye alarmas de CPB, VM & VCe y tiempo de apnea.
 
-#### 4.3 Ajst usrio
+#### 4.3 Ajuste usuario
 
-El submenú Ajst usrio, o ajuste de usuario, permite modificar configuraciones generales del equipo, como compensación de volumen corriente, origen de supervisión de O₂, módulo de gas, pantalla, sonido y otros ajustes de funcionamiento. Este menú no se usa directamente para cambiar el modo ventilatorio, sino para configurar condiciones generales de uso y visualización.
+El submenú Ajuste usuario, o ajuste de usuario, permite modificar configuraciones generales del equipo, como compensación de volumen corriente, origen de supervisión de O₂, módulo de gas, pantalla, sonido y otros ajustes de funcionamiento. Este menú no se usa directamente para cambiar el modo ventilatorio, sino para configurar condiciones generales de uso y visualización.
 
 <div align="center">
 
@@ -284,7 +284,7 @@ El submenú Ajst usrio, o ajuste de usuario, permite modificar configuraciones g
 
 </div>
 
-### 4.4 Mantenim.
+#### 4.4 Mantenim.
 
 El submenú Mantenim. se usa para funciones de mantenimiento y verificación del equipo. Permite realizar pruebas de fugas, calibrar el sensor de O₂, calibrar el sensor de flujo y establecer ajustes como idioma, hora del sistema y unidad de presión.
 
@@ -303,7 +303,7 @@ El submenú Mantenim. se usa para funciones de mantenimiento y verificación del
 
 </div>
 
-### ¿En cuál submenú se puede activar la pausa inspiratoria?
+#### ¿En cuál submenú se puede activar la pausa inspiratoria?
 
 En la WATO EX-20, la pausa inspiratoria no aparece como un submenú independiente. Se configura como el parámetro **TIP:TI** o **[Pausa:Insp.]**, que representa el porcentaje del tiempo de estabilidad inspiratoria dentro del tiempo inspiratorio.
 
