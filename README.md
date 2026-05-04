@@ -8,13 +8,32 @@ Durante una cirugía se aplican comúnmente cuatro tipos principales de anestesi
 
 La anestesia general produce un estado controlado de inconsciencia, pérdida de sensibilidad y ausencia de respuesta al dolor. Se utiliza principalmente en cirugías mayores o procedimientos en los que el paciente debe permanecer completamente dormido. Puede administrarse por vía intravenosa o por inhalación de gases y vapores anestésicos, los cuales llegan al paciente por medio de la máquina de anestesia y el sistema respiratorio [1].
 
+- **Agentes inhalatorios volátiles:** isoflurano, sevoflurano, desflurano, halotano, enflurano.
+- **Agentes endovenosos (IV):** propofol, ketamina, tiopental.
+- **Analgésicos opioides:** fentanilo, morfina.
+- **Relajantes musculares:** succinilcolina, vecuronio.
 <p align="center">
 <img width="600" height="315" alt="image" src="https://github.com/user-attachments/assets/a80f95c9-9ceb-489d-b6fa-0fd3392d7062" />
 </p>
+> **La máquina de anestesia WATO EX-20 está diseñada específicamente para administrar anestesia general** mediante agentes inhalatorios mezclados con gases médicos.
 
 #### 1.2 Anestesia regional
 
-La anestesia regional bloquea la sensibilidad de una región amplia del cuerpo, como una pierna, un brazo o la parte inferior del cuerpo. Se aplica cerca de nervios principales o estructuras nerviosas. Algunos ejemplos son la anestesia raquídea, epidural y los bloqueos de nervios periféricos. En este tipo de anestesia el paciente puede permanecer despierto, aunque muchas veces se combina con sedación [2].
+La anestesia regional bloquea la sensibilidad de una región amplia del cuerpo, como una pierna, un brazo o la parte inferior del cuerpo. Se aplica cerca de nervios principales o estructuras nerviosas. 
+
+<h3 align="center">Tipos de anestesia regional</h3>
+
+<div align="center">
+
+| Subtipo | Descripción | Ejemplo de Uso |
+|---------|-------------|----------------|
+| **Epidural** | Inyección en el espacio epidural de la columna | Cesárea, cirugías de columna |
+| **Espinal (raquídea)** | Inyección en el líquido cefalorraquídeo | Cirugías de cadera, rodilla, urología |
+| **Bloqueo de nervio periférico** | Bloqueo de un nervio o plexo específico | Cirugías de extremidades |
+| **Bloqueo de plexo** | Varios nervios a la vez | Cirugía de hombro (plexo braquial) |
+
+</div>
+
 
 <p align="center">
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/94d37d07-583a-4a2a-a12d-361347e08b00" />
@@ -28,6 +47,8 @@ La anestesia local bloquea el dolor en una zona pequeña y específica del cuerp
 <img width="567" height="389" alt="image" src="https://github.com/user-attachments/assets/3d19a4a9-47b5-4e8e-9d09-2da50b633fc6" />
 </p>
 
+> La máquina de anestesia **no participa** en la administración de anestesia local.
+ 
 #### 1.4 Sedación o cuidado anestésico monitorizado
 
 La sedación, también conocida como cuidado anestésico monitorizado, consiste en administrar medicamentos para relajar al paciente, disminuir la ansiedad y reducir la percepción del dolor. Puede ser mínima, moderada o profunda. En sedación leve el paciente responde fácilmente a estímulos, mientras que en sedación profunda puede estar casi dormido, pero generalmente conserva la respiración espontánea [2].
@@ -144,7 +165,7 @@ En la WATO EX-20, los gases que pueden incorporarse mediante el sistema de alta 
 
 </div>
 
-
+> No dejar abiertas las válvulas de las botellas cuando se usa el suministro por tuberías, pues se agotan las botellas de reserva.
 
 ### 3. Sistema de Respiración
 
@@ -186,31 +207,119 @@ El manual también advierte que no se debe desinfectar en autoclave el sensor de
 
 En la interfaz de la Mindray WATO EX-20, el ventilador y sus ajustes principales se organizan en cuatro submenús o accesos principales desde la pantalla: Modo Vent, Ajuste alarma, Ajst usrio y Mantenim. Además, la pantalla tiene un área de teclas rápidas para ajustar parámetros específicos del modo ventilatorio seleccionado [4].
 
-### 1. Modo Vent
+#### 4.1 Modo Vent
 
-El submenú Modo Vent se usa para seleccionar el modo de ventilación mecánica. En la WATO EX-20, el modo de ventilación mecánica básico es VCV, es decir, ventilación controlada por volumen. Otros modos pueden estar disponibles como opciones dependiendo de la configuración del equipo [4].
+El submenú Modo Vent se usa para seleccionar el modo de ventilación mecánica. En la WATO EX-20, el modo de ventilación mecánica básico es VCV, es decir, ventilación controlada por volumen. Otros modos pueden estar disponibles como opciones dependiendo de la configuración del equipo.
 
-En VCV, el ventilador entrega un volumen corriente preestablecido al paciente. Para lograrlo, suministra gas durante la inspiración hasta alcanzar el volumen programado. La presión de la vía aérea puede cambiar dependiendo de la resistencia de la vía aérea y de la distensibilidad pulmonar del paciente [4].
+En VCV, el ventilador entrega un volumen corriente preestablecido al paciente. Para lograrlo, suministra gas durante la inspiración hasta alcanzar el volumen programado. La presión de la vía aérea puede cambiar dependiendo de la resistencia de la vía aérea y de la distensibilidad pulmonar del paciente.
 
-También puede estar disponible el modo P o ventilación por control de presión. En este modo, el ventilador busca alcanzar una presión inspiratoria establecida, llamada Pinsp, y el volumen corriente resultante depende de la mecánica pulmonar del paciente [4].
+También puede estar disponible el modo P o ventilación por control de presión. En este modo, el ventilador busca alcanzar una presión inspiratoria establecida, llamada Pinsp, y el volumen corriente resultante depende de la mecánica pulmonar del paciente.
 
-### 2. Ajuste alarma
+<div align="center">
 
-El submenú Ajuste alarma se usa para modificar los límites de alarma del ventilador anestésico o del módulo de gas. Desde este menú se pueden configurar alarmas relacionadas con presión de vía aérea, volumen minuto, volumen corriente, apnea, FiO₂ y otros parámetros de seguridad, dependiendo de la configuración del equipo [4].
+| Modo | Nombre Completo | Descripción |
+|------|----------------|-------------|
+| **VCV** | Ventilación por Control de Volumen | Entrega un volumen corriente fijo. La presión varía según la distensibilidad pulmonar. |
+| **Modo P** | Ventilación por Control de Presión | Establece una presión inspiratoria objetivo. El volumen varía según la distensibilidad. |
 
-### 3. Ajst usrio
+</div>
 
-El submenú Ajst usrio, o ajuste de usuario, permite modificar configuraciones generales del equipo, como compensación de volumen corriente, origen de supervisión de O₂, módulo de gas, pantalla, sonido y otros ajustes de funcionamiento. Este menú no se usa directamente para cambiar el modo ventilatorio, sino para configurar condiciones generales de uso y visualización [4].
+Parámetros en modo VCV:
 
-### 4. Mantenim.
+<div align="center">
 
-El submenú Mantenim. se usa para funciones de mantenimiento y verificación del equipo. Permite realizar pruebas de fugas, calibrar el sensor de O₂, calibrar el sensor de flujo y establecer ajustes como idioma, hora del sistema y unidad de presión [4].
+| Parámetro | Rango | Paso |
+|-----------|-------|------|
+| **[VC]** — Volumen corriente | 40–1500 ml | Variable |
+| **[Frec]** — Frecuencia respiratoria | 4–100 bpm | 1 bpm |
+| **[I:E]** — Relación I:E | 4:1 a 1:8 | 0.5 |
+| **[Pausa:Insp.]** — Pausa inspiratoria | DES, 5–60% | 5% |
+| **[Plimit]** — Presión límite | 10–100 cmH₂O | 1 cmH₂O |
+| **[PEEP]** — PEEP | DES, 4–30 cmH₂O | 1 cmH₂O |
+
+</div>
+
+Parámetros en modo P:
+
+<div align="center">
+
+| Parámetro | Rango |
+|-----------|-------|
+| **[Pinsp]** — Presión inspiratoria | 5–60 cmH₂O |
+| **[Frec]** — Frecuencia respiratoria | 4–100 bpm |
+| **[I:E]** — Relación I:E | 4:1 a 1:8 |
+| **[PEEP]** — PEEP | DES, 4–30 cmH₂O |
+
+</div>
+
+#### 4.2 Ajuste alarma
+
+El submenú Ajuste alarma se usa para modificar los límites de alarma del ventilador anestésico o del módulo de gas. Desde este menú se pueden configurar alarmas relacionadas con presión de vía aérea, volumen minuto, volumen corriente, apnea, FiO₂ y otros parámetros de seguridad, dependiendo de la configuración del equipo.
+
+<div align="center">
+
+| Parámetro | Límite Inferior (defecto) | Límite Superior (defecto) |
+|-----------|--------------------------|--------------------------|
+| **FiO₂** | 21% | 100% |
+| **VCe** | 5 ml | 1000 ml |
+| **VM** | 2.0 l/min | 10 l/min |
+| **Frecuencia respiratoria** | 2 bpm | 40 bpm |
+| **Pvr** | 4 cmH₂O | 30 cmH₂O |
+
+</div>
+
+También incluye alarmas de CPB, VM & VCe y tiempo de apnea.
+
+#### 4.3 Ajst usrio
+
+El submenú Ajst usrio, o ajuste de usuario, permite modificar configuraciones generales del equipo, como compensación de volumen corriente, origen de supervisión de O₂, módulo de gas, pantalla, sonido y otros ajustes de funcionamiento. Este menú no se usa directamente para cambiar el modo ventilatorio, sino para configurar condiciones generales de uso y visualización.
+
+<div align="center">
+
+| Opción | Función |
+|--------|---------|
+| **[Origen superv. O₂]** | Activa o desactiva el sensor de O₂ |
+| **[Ajuste pantalla y audio >>]** | Configura volumen de teclas y alarmas |
+| **[Carg parám us pred]** | Carga configuración guardada |
+
+</div>
+
+### 4.4 Mantenim.
+
+El submenú Mantenim. se usa para funciones de mantenimiento y verificación del equipo. Permite realizar pruebas de fugas, calibrar el sensor de O₂, calibrar el sensor de flujo y establecer ajustes como idioma, hora del sistema y unidad de presión.
+
+<div align="center">
+
+| Opción | Función |
+|--------|---------|
+| **[Cal sensor flujo >>]** | Calibración del sensor de flujo |
+| **[Cal sensor O₂ >>] → [Cal 21% O₂]** | Calibración al 21% de O₂ |
+| **[Cal sensor O₂ >>] → [Cal 100% O₂]** | Calibración al 100% de O₂ |
+| **[Chequeo Compliancia & fugas sist.]** | Prueba de fugas y compliancia |
+| **[Def hora sistema >>]** | Ajuste de fecha y hora |
+| **[Idioma]** | Selección de idioma |
+| **[Unidad Pvr]** | Unidad de presión: cmH₂O, hPa o mbar |
+| **[Gestionar configurac >>]** | Guardar o restaurar configuraciones |
+
+</div>
 
 ### ¿En cuál submenú se puede activar la pausa inspiratoria?
 
-En la WATO EX-20, la pausa inspiratoria no aparece como un submenú independiente. Se configura como el parámetro TIP:TI, que significa porcentaje del tiempo de estabilidad inspiratoria dentro del tiempo inspiratorio. Este parámetro aparece dentro del área de ajuste de parámetros del modo ventilatorio, especialmente en VCV y también en modo P. Por lo tanto, primero se entra a Modo Vent, se selecciona el modo de ventilación y luego se ajusta TIP:TI desde las teclas rápidas de parámetros [4].
+En la WATO EX-20, la pausa inspiratoria no aparece como un submenú independiente. Se configura como el parámetro **TIP:TI** o **[Pausa:Insp.]**, que representa el porcentaje del tiempo de estabilidad inspiratoria dentro del tiempo inspiratorio.
 
-El rango de ajuste de TIP:TI en VCV es de 5 % a 60 %, con pasos de 5 %, y también puede estar desactivado. En la hoja técnica de la WATO EX-20 se describe la pausa inspiratoria con rango OFF, 5 % a 60 %, en incrementos de 5 % [4], [5].
+Este parámetro aparece dentro del área de ajuste de parámetros del modo ventilatorio, especialmente en VCV. Por lo tanto, primero se entra a **Modo Vent**, se selecciona el modo de ventilación y luego se ajusta **[Pausa:Insp.]** desde las teclas rápidas de parámetros.
+
+**Ruta:** Menú → **[Modo Vent >>]** → **VCV** → **[Pausa:Insp.]**
+
+<div align="center">
+
+| Parámetro | Rango | Paso |
+|-----------|-------|------|
+| **[Pausa:Insp.]** | DES, 5–60% | 5% |
+
+</div>
+
+Su función fisiológica consiste en mantener el pulmón insuflado brevemente al final de la inspiración, favoreciendo la redistribución del gas hacia zonas pulmonares con diferente distensibilidad y mejorando el intercambio gaseoso.
 
 ---
 
