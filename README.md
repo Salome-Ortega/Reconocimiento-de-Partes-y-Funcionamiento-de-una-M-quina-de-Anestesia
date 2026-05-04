@@ -321,7 +321,18 @@ Este parámetro aparece dentro del área de ajuste de parámetros del modo venti
 
 Su función fisiológica consiste en mantener el pulmón insuflado brevemente al final de la inspiración, favoreciendo la redistribución del gas hacia zonas pulmonares con diferente distensibilidad y mejorando el intercambio gaseoso.
 
----
+## PARTE B 
+### 1. Identificación de Partes 
+<div align="center">
+
+| Nombre | Foto | Ubicación | ¿Qué es? | Función |
+|--------|------|-----------|----------|---------|
+| **Vaporizador** | **[INSERTAR FOTO]** | Parte frontal superior de la máquina, acoplado al sistema de gases frescos. | Dispositivo que contiene el agente anestésico líquido. | Convierte el anestésico líquido en vapor y lo mezcla con el flujo de gas fresco para administrar una concentración controlada al paciente. |
+| **Válvula APL** | **[INSERTAR FOTO]** | En el circuito respiratorio manual, cerca del sistema circular. | Válvula de control de presión del circuito manual. | Regula la presión máxima del circuito y permite evacuar el exceso de gases, evitando sobrepresión pulmonar durante la ventilación manual. |
+| **Recipiente absorbente de CO₂** | <img width="960" height="1280" alt="WhatsApp Image 2026-05-04 at 11 31 07 AM" src="https://github.com/user-attachments/assets/d0b4fd55-bbd5-41d9-ba7b-aec3f3f4e8ac" /> |  Parte frontal inferior del sistema circular. | Depósito que contiene cal sodada u otro material absorbente. | Elimina el dióxido de carbono del gas espirado para permitir la reinhalación segura de los gases anestésicos. |
+| **Fuelle** | **[INSERTAR FOTO]** | En el módulo interno del ventilador, visible en el compartimiento lateral o frontal según el modelo. | Componente móvil del ventilador mecánico. | Se expande y se contrae durante el ciclo respiratorio para impulsar el gas hacia el paciente y facilitar la ventilación mecánica. |
+
+</div>
 
 ## Bibliografía
 
