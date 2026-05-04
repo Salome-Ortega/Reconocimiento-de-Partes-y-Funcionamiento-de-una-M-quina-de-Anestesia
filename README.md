@@ -324,16 +324,127 @@ Su función fisiológica consiste en mantener el pulmón insuflado brevemente al
 ## PARTE B 
 ### 1. Identificación de Partes 
 <div align="center">
-
+ 
 | Nombre | Foto | Ubicación | ¿Qué es? | Función |
 |--------|------|-----------|----------|---------|
 | **Vaporizador** | **[INSERTAR FOTO]** | Parte frontal superior de la máquina, acoplado al sistema de gases frescos. | Dispositivo que contiene el agente anestésico líquido. | Convierte el anestésico líquido en vapor y lo mezcla con el flujo de gas fresco para administrar una concentración controlada al paciente. |
-| **Válvula APL** | **[INSERTAR FOTO]** | En el circuito respiratorio manual, cerca del sistema circular. | Válvula de control de presión del circuito manual. | Regula la presión máxima del circuito y permite evacuar el exceso de gases, evitando sobrepresión pulmonar durante la ventilación manual. |
-| **Recipiente absorbente de CO₂** | <img width="960" height="1280" alt="WhatsApp Image 2026-05-04 at 11 31 07 AM" src="https://github.com/user-attachments/assets/d0b4fd55-bbd5-41d9-ba7b-aec3f3f4e8ac" /> |  Parte frontal inferior del sistema circular. | Depósito que contiene cal sodada u otro material absorbente. | Elimina el dióxido de carbono del gas espirado para permitir la reinhalación segura de los gases anestésicos. |
-| **Fuelle** | **[INSERTAR FOTO]** | En el módulo interno del ventilador, visible en el compartimiento lateral o frontal según el modelo. | Componente móvil del ventilador mecánico. | Se expande y se contrae durante el ciclo respiratorio para impulsar el gas hacia el paciente y facilitar la ventilación mecánica. |
+| **Válvula APL** |<img width="815" height="831" alt="image" src="https://github.com/user-attachments/assets/2ac9a1e8-830d-4479-9ed3-4d6f9c5bc6f8" /> | En el **sistema de respiración**, lateral al bloque del circuito. Es una perilla circular con escala de presión grabada, accesible desde el frente de la máquina. | La **Válvula APL** (*Airway Pressure Limit*) es una válvula de alivio de presión ajustable que actúa como mecanismo de seguridad durante la **ventilación manual**. | Regula la presión máxima del circuito. Giro **horario** aumenta el límite (hasta **75 cmH₂O**) y giro **antihorario** lo disminuye hacia **MIN**. Cuando la presión alcanza el valor fijado, la válvula se abre y libera el exceso de gas hacia el sistema **AGSS**, protegiendo los pulmones. |
+| **Recipiente absorbente de CO₂** | <img width="960" height="1280" alt="WhatsApp Image 2026-05-04 at 11 31 07 AM" src="https://github.com/user-attachments/assets/61b0fadc-a288-41dd-9d91-d5ea141e149d" /> | En la parte inferior del **sistema de respiración**, visible desde el frente. El recipiente es transparente para permitir inspección visual del absorbente. | Contenedor que aloja el material absorbente (**cal sodada / soda-lime**) encargado de **neutralizar el CO₂ del gas exhalado** por el paciente. | El gas espirado pasa a través del absorbente, que captura el CO₂. El gas limpio vuelve al circuito y se mezcla con el gas fresco, permitiendo reutilización, conservación de humedad, calor y agente anestésico. |
+| **Fuelle** | **[INSERTAR FOTO]** | Dentro del **alojamiento del fuelle**, la carcasa cilíndrica transparente a la derecha del sistema de respiración. | Bolsa o acordeón flexible dentro del ventilador mecánico que actúa como **reservorio de gas**. | Durante la inspiración, el gas impulsor externo comprime el fuelle y envía el volumen corriente al paciente. Durante la espiración, el gas exhalado llena el fuelle nuevamente. Facilita la ventilación mecánica y permite observar visualmente el ciclo respiratorio. |
 
 </div>
 
+### Especificaciones adicionales
+
+<div align="center">
+
+| Componente | Parámetro | Valor |
+|------------|-----------|-------|
+| **Válvula APL** | Rango | 1 a 75 cmH₂O |
+| **Válvula APL** | Indicador táctil | Clics a partir de 30 cmH₂O |
+| **Válvula APL** | Precisión | ±10 cmH₂O o ±15% del valor medido |
+| **Recipiente absorbente de CO₂** | Volumen del recipiente | ~1500 ml |
+| **Recipiente absorbente de CO₂** | Absorbente recomendado | MedisorbTM |
+
+</div>
+
+>  **Válvula APL:** solo es funcional en **ventilación manual**. En ventilación mecánica, el ventilador controla las presiones electrónicamente.  
+>  **Recipiente absorbente de CO₂:** el absorbente **seco** puede generar **monóxido de carbono (CO)** al reaccionar con desflurano o isoflurano.  
+>  **Fuelle:** la escala del alojamiento es solo **orientativa**; el valor confiable del volumen corriente es el que aparece en pantalla. 
+</div>
+
+---
+
+### 2.  Alarma "Batería en uso" con Paciente Conectado
+#### ¿Qué acción debería ejecutarse?
+
+El mensaje `[Batería en uso]` indica que el equipo **perdió el suministro de CA** y opera con baterías internas.
+
+**Acciones en orden de prioridad:**
+
+**PASO 1 (Inmediato):** Verificar si el cable de CA se desconectó accidentalmente y reconectarlo.
+
+**PASO 2:** Si no se restaura, conectar el equipo a **otra toma de corriente CA** disponible.
+
+**PASO 3:** Vigilar continuamente al paciente y el nivel de carga de la batería en pantalla.
+
+**PASO 4:** Si la batería sigue descargándose, prepararse para **ventilación manual** con la bolsa del circuito.
+
+**Autonomía de la batería:**
+
+<div align="center">
+
+| Configuración | Tiempo estimado |
+|---------------|----------------|
+| 1 batería completamente cargada (25°C) | ~90 minutos |
+| 2 baterías completamente cargadas (25°C) | ~150 minutos |
+
+</div>
+
+
+**Escalada de alarmas de batería:**
+
+<div align="center">
+
+| Alarma | Nivel | Acción requerida |
+|--------|-------|-----------------|
+| `[Batería en uso]` | Bajo | Restaurar CA |
+| `[Voltaje de batería bajo]` | Alto | Conectar CA inmediatamente |
+| `[Sistema cerrado. Batería agotada]` | Alto | Ventilación manual — el equipo se apagará |
+
+</div>
+
+---
+
+### 3. Frecuencia de Reemplazo del Recipiente Absorbente de CO₂
+
+El reemplazo del absorbente se realiza **según sea necesario**, no en intervalos fijos de tiempo.
+
+**El absorbente debe reemplazarse cuando:**
+
+1. Se observe un **cambio de color evidente** durante la cirugía o al final del caso.
+2. La **capnografía detecte reinhalación de CO₂** (FiCO₂ > 0) — criterio más confiable.
+3. El absorbente se haya secado completamente por flujos de gas prolongados sin paciente.
+
+**Consideraciones importantes:**
+- Con **flujos bajos de gas fresco**, el absorbente se agota más rápido.
+- El absorbente puede **recuperar su color** al reposar → no confiar solo en el color.
+- El absorbente seco puede generar **CO** al contacto con desflurano/isoflurano.
+- El programa de mantenimiento del manual clasifica el reemplazo como tarea *"según sea necesario"*.
+
+---
+
+### 4. Procedimiento para Verificar Fugas en el Cilindro de Alta Presión
+
+#### Prueba para Cilindro de O₂
+
+<div align="center">
+| Paso | Acción |
+|------|--------|
+| 1 | Encender el sistema (ON). Desconectar el suministro de tubería de O₂. |
+| 2 | Cerrar el caudalímetro de O₂ (flujo mínimo). |
+| 3 | Abrir la válvula del cilindro de O₂. |
+| 4 | Registrar la presión actual del cilindro. |
+| 5 | Cerrar la válvula del cilindro. |
+| 6 | Esperar **1 minuto** y releer la presión. |
+</div>
+
+**Criterio:** si la presión cae **> 5.000 kPa (725 psi)** en 1 minuto → **hay fuga**.
+
+**Si hay fuga:** instalar nueva junta en el racor de conexión (sección 9.5 del manual). Si la fuga persiste, **no usar** el suministro por botellas.
+
+#### Comparativo por Gas
+<div align="center">
+| Gas | Umbral de fuga en 1 minuto |
+|-----|---------------------------|
+| O₂ | > 5.000 kPa (725 psi) |
+| N₂O | > 700 kPa (100 psi) |
+| Aire | > 5.000 kPa (mismo que O₂) |
+</div>
+
+> Indicadores de presión de los cilindros (manómetros de alta presión) en el panel frontal. Señalar los tres indicadores: O₂, N₂O y Aire.
+
+---
 ## Bibliografía
 
 [1] American Society of Anesthesiologists. *Types of Anesthesia*. Disponible en: https://madeforthismoment.asahq.org/anesthesia-101/types-of-anesthesia/
