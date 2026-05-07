@@ -634,6 +634,7 @@ Las alarmas técnicas documentadas en el **Apéndice D** del manual de la WATO E
 #### Subsistema 2: Sistema de Alimentación Eléctrica
 
 <div align="center">
+ 
 | Alarma | Nivel | Causa Principal |
 |--------|-------|----------------|
 | Voltaje de batería bajo | Alto | Tensión de batería insuficiente |
