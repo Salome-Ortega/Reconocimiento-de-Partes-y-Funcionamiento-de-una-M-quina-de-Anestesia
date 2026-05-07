@@ -485,6 +485,96 @@ El reemplazo del absorbente se realiza **según sea necesario**, no en intervalo
 > Indicadores de presión de los cilindros (manómetros de alta presión) en el panel frontal. Señalar los tres indicadores: O₂, N₂O y Aire.
 
 ---
+
+### 5. Influencia del Sensor de O₂ en la Prueba del Sistema de Control de Flujo
+
+**Sí influye.** Existen **dos procedimientos distintos** según se disponga o no del sensor:
+
+### Sin Sensor de O₂ (Sección 6.6.1)
+
+Verificación **manual y visual** mediante lectura de los caudalímetros: 
+
+<div align="center">
+ 
+| Flujo N₂O (l/min) | Flujo mínimo O₂ requerido (l/min) |
+|-------------------|---------------------------------|
+| 0.6 | ≥ 0.2 |
+| 1.5 | ≥ 0.4 |
+| 3.0 | ≥ 0.8 |
+| 7.5 | ≥ 2.0 |
+
+</div>
+
+>  **Limitación:** solo verifica caudal, no la concentración real de O₂ en el gas.
+
+### Con Sensor de O₂ (Sección 6.6.2)
+
+Verificación **cuantitativa y directa** de la concentración real de O₂:
+- El sensor mide FiO₂ continuamente.
+- Se verifica que la concentración de O₂ sea **siempre ≥ 21%** en todo el rango de flujo.
+- Requiere que el sensor esté **calibrado** previamente al 21%.
+
+#### Comparación
+
+<div align="center">
+ 
+| Criterio | Sin Sensor O₂ | Con Sensor O₂ |
+|----------|--------------|---------------|
+| Tipo de verificación | Indirecta (caudalímetro) | Directa (concentración real) |
+| Precisión | Menor | Mayor |
+| Detección de mezclas hipóxicas | Limitada | Alta |
+| Requisito previo | Ninguno | Sensor calibrado al 21% |
+
+</div>
+
+> **Conclusión:** el sensor de O₂ proporciona una **capa adicional de seguridad**. Su presencia hace la prueba más robusta porque mide directamente la concentración que recibirá el paciente.
+---
+
+### 6. ¿Para Qué se Requiere el Sistema de Presión Negativa?
+
+El **dispositivo de succión de presión negativa** tiene una función **clínico-quirúrgica**: aspirar fluidos de la vía aérea superior que puedan comprometer la ventilación o causar aspiración pulmonar:
+
+- Secreciones orofaríngeas (saliva, mucosidades).
+- **Vómito o contenido gástrico regurgitado** — riesgo crítico de broncoaspiración.
+- Sangre procedente de cavidad oral o procedimientos.
+
+**Es especialmente crítico durante:**
+- La **inducción anestésica** (pérdida de reflejos protectores).
+- La **intubación traqueal**.
+- El **despertar** del paciente.
+
+**Principio de funcionamiento (efecto Venturi):**
+**Especificaciones técnicas:**
+
+<div align="center">
+ 
+| Parámetro | Valor |
+|-----------|-------|
+| Fuente de gas | Aire u O₂ del sistema |
+| Presión negativa mínima | > 50 kPa (a 280 kPa de suministro) |
+| Flujo mínimo de succión | 20 l/min |
+| Consumo de gas | < 52 l/min a 280 kPa |
+
+</div>
+
+**Modos del interruptor de cambio:**
+
+<div align="center">
+ 
+| Posición | Descripción |
+|----------|-------------|
+| **TOTAL** | Succión a presión máxima (mando no funciona) |
+| **REG** | Succión a presión regulable mediante el mando |
+| **DES** | Dispositivo apagado |
+
+</div>
+
+>  Mantener el interruptor apagado cuando no esté en uso para evitar acumulación de O₂ en el quirófano (riesgo de incendio).
+
+> Dispositivo de succión de presión negativa en la WATO EX-20. Señalar: interruptor de succión, interruptor de cambio, indicador de presión, mando y botella de recogida.
+
+---
+
 ## Bibliografía
 
 [1] American Society of Anesthesiologists. *Types of Anesthesia*. Disponible en: https://madeforthismoment.asahq.org/anesthesia-101/types-of-anesthesia/
