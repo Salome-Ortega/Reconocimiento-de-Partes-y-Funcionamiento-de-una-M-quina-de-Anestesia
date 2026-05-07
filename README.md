@@ -419,14 +419,38 @@ El reemplazo del absorbente se realiza **según sea necesario**, no en intervalo
 #### Prueba para Cilindro de O₂
 
 <div align="center">
-| Paso | Acción |
-|------|--------|
-| 1 | Encender el sistema (ON). Desconectar el suministro de tubería de O₂. |
-| 2 | Cerrar el caudalímetro de O₂ (flujo mínimo). |
-| 3 | Abrir la válvula del cilindro de O₂. |
-| 4 | Registrar la presión actual del cilindro. |
-| 5 | Cerrar la válvula del cilindro. |
-| 6 | Esperar **1 minuto** y releer la presión. |
+
+<table>
+  <tr>
+    <th>Paso</th>
+    <th>Acción</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Encender el sistema (ON). Desconectar el suministro de tubería de O₂.</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Cerrar el caudalímetro de O₂ (flujo mínimo).</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Abrir la válvula del cilindro de O₂.</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Registrar la presión actual del cilindro.</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Cerrar la válvula del cilindro.</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Esperar <b>1 minuto</b> y releer la presión.</td>
+  </tr>
+</table>
+
 </div>
 
 **Criterio:** si la presión cae **> 5.000 kPa (725 psi)** en 1 minuto → **hay fuga**.
@@ -434,12 +458,28 @@ El reemplazo del absorbente se realiza **según sea necesario**, no en intervalo
 **Si hay fuga:** instalar nueva junta en el racor de conexión (sección 9.5 del manual). Si la fuga persiste, **no usar** el suministro por botellas.
 
 #### Comparativo por Gas
+
 <div align="center">
-| Gas | Umbral de fuga en 1 minuto |
-|-----|---------------------------|
-| O₂ | > 5.000 kPa (725 psi) |
-| N₂O | > 700 kPa (100 psi) |
-| Aire | > 5.000 kPa (mismo que O₂) |
+
+<table>
+  <tr>
+    <th>Gas</th>
+    <th>Umbral de fuga en 1 minuto</th>
+  </tr>
+  <tr>
+    <td>O₂</td>
+    <td>&gt; 5.000 kPa (725 psi)</td>
+  </tr>
+  <tr>
+    <td>N₂O</td>
+    <td>&gt; 700 kPa (100 psi)</td>
+  </tr>
+  <tr>
+    <td>Aire</td>
+    <td>&gt; 5.000 kPa (mismo que O₂)</td>
+  </tr>
+</table>
+
 </div>
 
 > Indicadores de presión de los cilindros (manómetros de alta presión) en el panel frontal. Señalar los tres indicadores: O₂, N₂O y Aire.
