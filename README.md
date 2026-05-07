@@ -1,4 +1,4 @@
-# Reconocimiento de partes y funcionamiento de una máquina de anestesia
+# Reconocimiento de partes y funcionamiento de una máquina de anestesia.
 ## PARTE A
 ### 1. Tipos de Anestesia
 
