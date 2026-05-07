@@ -748,7 +748,13 @@ Las alarmas técnicas documentadas en el **Apéndice D** del manual de la WATO E
 El sistema neumático es mecánicamente simple: reguladores, válvulas de retención y manómetros. Las fallas se reducen principalmente a pérdida de suministro (baja presión), detectable con un único sensor de presión.
 
 ## Conclusiones 
+1. La máquina de anestesia es un equipo biomédico esencial en cirugía, ya que permite administrar gases medicinales y agentes anestésicos de forma controlada, además de brindar soporte ventilatorio al paciente durante el procedimiento. Su correcto funcionamiento contribuye directamente a la seguridad del paciente y al control de la anestesia general.
 
+
+2. El reconocimiento de los gases utilizados en la máquina de anestesia, como oxígeno, aire medicinal y óxido nitroso, permite comprender la función de cada uno dentro del proceso anestésico. Además, se identificó que los agentes volátiles no ingresan como gases comprimidos, sino que son vaporizados mediante el vaporizador del equipo.
+
+
+3. Conocer las partes principales de la máquina, el sistema de respiración, los modos ventilatorios, las alarmas y los procedimientos básicos de mantenimiento es fundamental para el personal biomédico. Esto permite verificar el estado del equipo, detectar fallas oportunamente y apoyar un uso seguro durante los procedimientos quirúrgicos.
 
 ## Bibliografía
 
