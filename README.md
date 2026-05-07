@@ -574,6 +574,158 @@ El **dispositivo de succión de presión negativa** tiene una función **clínic
 > Dispositivo de succión de presión negativa en la WATO EX-20. Señalar: interruptor de succión, interruptor de cambio, indicador de presión, mando y botella de recogida.
 
 ---
+# 📊 Análisis de Resultados
+
+---
+
+## Análisis 1 — Fallas por Subsistema: Causas y Consecuencias
+
+Las alarmas técnicas documentadas en el **Apéndice D** del manual de la WATO EX-20 se agrupan así por subsistema:
+
+---
+
+### Subsistema 1: Ventilador
+
+| Alarma | Nivel | Causa Principal |
+|--------|-------|----------------|
+| Error hardware ventilador 01 | Alto | Error de CPU |
+| Error hardware ventilador 02 | Alto | Error de RAM |
+| Error hardware ventilador 03 | Alto | Error de ROM |
+| Error hardware ventilador 04 | Alto | Error de watchdog |
+| Error hardware ventilador 05 | Alto | Error de EEPROM |
+| Error hardware ventilador 06 | Alto | Error de AD interno |
+| Error hardware ventilador 07 | Alto | Error de AD externo |
+| Error hardware ventilador 08 | Alto | Error de alimentación de 5 V |
+| Error hardware ventilador 09 | Alto | Error de alimentación de 12 V |
+| Error hardware ventil. 11 | Alto | Error de placa de control auxiliar |
+| Error com ventilador | Alto | Pérdida de comunicación ventilador ↔ sistema principal |
+| Parada com ventilador | Alto | Comunicación interrumpida (umbral crítico) |
+| Error módulo ctrl aux | Alto | Placa de control auxiliar no responde en 10 s |
+| Presión baja gas motriz | Alto | Presión del gas impulsor insuficiente |
+| Error válv PEEP | Medio | Error de control/conexión de la válvula PEEP |
+| Error válvula insp | Medio | Error de control/conexión de la válvula inspiratoria |
+| Error válv seguridad PEEP | Medio | Error en la válvula de seguridad del PEEP |
+| Error canal monit. presión | Medio | Error en supervisión de presión del paciente |
+| Sustituir sensor O₂ | Medio | Sensor de O₂ al final de su vida útil |
+| Calibrar sensor flujo | Bajo | Error en calibración o desviación del sensor de flujo |
+| Calibrar válv PEEP | Bajo | Error en calibración del sensor Pvr o válvula PEEP |
+| Calibrar sensor O₂ | Bajo | Error de calibración del sensor de O₂ |
+| Sensor O₂ no conectado | Bajo | Cable del sensor de O₂ desconectado |
+| Error sensor flujo | Bajo | Error de supervisión del sensor de flujo |
+| Compr sensores flujo | Alto | Sensores de flujo mal instalados, dañados o con agua acumulada |
+| Pinsp no alcanzada | Bajo | Sistema incapaz de alcanzar la Pinsp programada |
+| VC no alcanzado | Bajo | Volumen corriente inferior al programado en 6 ciclos consecutivos |
+| Error p cero sensor | Bajo | El sensor no puede ponerse a cero automáticamente |
+| Error válv 3 vías | Bajo | Error en válvula de tres vías del circuito |
+| ¿Paciente desconect? | Alto | Desconexión de tubos o fuga importante |
+| Pvr < -10cmH₂O | Alto | Presión de vías respiratorias excesivamente negativa |
+| Presión vía resp. sost. | Alto | Pvr supera el límite sostenido por más de 15 segundos |
+| Botella CO₂ no instalada | Medio | Recipiente absorbente no instalado o mal posicionado |
+| Flujo gas fresco muy alto | Medio | Flujo de gas fresco demasiado alto |
+| Error autocomp ventilador | Alto | Error durante autocomprobación al encender |
+| Error inic ventilador | Alto | Error durante inicialización del ventilador |
+| Error ventilación mecánica | Alto | Restablecimiento anormal del software |
+
+---
+
+### Subsistema 2: Sistema de Alimentación Eléctrica
+
+| Alarma | Nivel | Causa Principal |
+|--------|-------|----------------|
+| Voltaje de batería bajo | Alto | Tensión de batería insuficiente |
+| Batería en uso | Bajo | Pérdida del suministro de CA |
+| No se detecta batería | Medio | Batería no instalada o desconectada |
+| Parada com sist alimen | Alto | Comunicación interrumpida módulo alimentación ↔ placa principal |
+| Error autocomp sist aliment | Alto | Error de watchdog/flash/voltaje en sistema de alimentación |
+| Error voltaje alimentación | Alto | Voltaje fuera de rango |
+| Sistema cerrado. Batería agotada | Alto | Voltaje < 10.2 V y sin CA conectada |
+| Temp alta cuadro aliment. | Alto | Temperatura de la placa > 95°C |
+
+---
+
+### Subsistema 3: Módulo de Control Auxiliar
+
+| Alarma | Nivel | Causa Principal |
+|--------|-------|----------------|
+| Error hardware módulo ctrl aux 01 | Alto | Error de autocomprobación de CPU |
+| Error hardware módulo ctrl aux 02 | Alto | Error de autocomprobación de RAM |
+| Error hardware módulo ctrl aux 03 | Alto | Error de autocomprobación de ROM |
+| Error hardware módulo ctrl aux 05 | Alto | Error de autocomprobación de watchdog |
+| Error com módulo ctrl aux | Alto | Comunicación interrumpida 3 segundos |
+| Parada com módulo ctrl aux | Alto | Comunicación interrumpida 10 segundos |
+| Error canal monit. presión (aux) | Medio | Error en supervisión de presión detectado por placa auxiliar |
+
+---
+
+### Subsistema 4: Sistema General / Reloj / Teclado
+
+| Alarma | Nivel | Causa Principal |
+|--------|-------|----------------|
+| Reiniciar reloj RT | Alto | Pila de botón agotada o ausente |
+| Reloj RT no existe | Alto | Chip RTC defectuoso |
+| Err iniciar teclado | Alto | Teclado no inicializa |
+| Error tecla | Medio | Tecla presionada > 3 segundos |
+| Conflicto direc IP | Medio | Conflicto de dirección IP en la red |
+| Circuito resp. no instalado | Alto | Sistema de respiración no instalado o mal conectado |
+
+---
+
+### Subsistema 5: Módulo Calefactor
+
+| Alarma | Nivel | Causa Principal |
+|--------|-------|----------------|
+| Error módulo calef | Bajo | Error en termistor o barra calefactora |
+| Error autocomp módulo calef | Bajo | Error de autocomprobación del módulo |
+| Error com módulo calef | Bajo | Error en comunicación |
+| Parada com módulo calef | Bajo | Comunicación interrumpida |
+
+---
+
+### Subsistema 6: Sistema Neumático (Suministro de Gas)
+
+| Alarma | Nivel | Causa Principal |
+|--------|-------|----------------|
+| Error sum O₂ | Alto | Presión de suministro de O₂ insuficiente |
+| Presión baja gas imp | — | Presión de tubería ≤ 220 kPa |
+| Presión baja gas motriz | Alto | Gas motriz del ventilador insuficiente |
+
+---
+
+### Subsistema 7: Sistema AGSS / Válvula ACGO
+
+| Alarma | Nivel | Causa Principal |
+|--------|-------|----------------|
+| Error válv. 3 vías ACGO | Medio | Error de estado o configuración de la válvula ACGO |
+
+---
+
+## Análisis 2 — Subsistemas Ordenados por Número de Fallas (Mayor a Menor)
+
+| Posición | Subsistema | N° de Fallas | Nivel Predominante |
+|----------|-----------|-------------|--------------------|
+| 🥇 1° | **Ventilador** | ~37 | Alto |
+| 🥈 2° | **Sistema de Alimentación Eléctrica** | ~8 | Alto |
+| 🥉 3° | **Módulo de Control Auxiliar** | ~7 | Alto |
+| 4° | **Sistema General / RTC / Teclado** | ~6 | Medio–Alto |
+| 5° | **Módulo Calefactor** | ~4 | Bajo |
+| 6° | **Sistema Neumático** | ~3 | Alto |
+| 7° | **Sistema AGSS / Válvula ACGO** | ~1 | Medio |
+
+> 📸 **[INSERTAR GRÁFICA]** — Gráfico de barras: eje X = subsistemas, eje Y = número de alarmas. Colores por nivel (rojo = alto, amarillo = medio, verde = bajo).
+
+### ¿Por qué el ventilador tiene la mayor cantidad de fallas?
+
+1. **Complejidad electrónica:** múltiples CPU, memorias, convertidores A/D y fuentes de alimentación propias. Cada uno puede fallar independientemente.
+2. **Criticidad clínica:** cualquier falla compromete directamente la ventilación. El fabricante implementó múltiples niveles de detección y los documentó exhaustivamente.
+3. **Interfaz neumático-electrónica:** integra señales electrónicas con actuadores neumáticos, creando más puntos potenciales de falla.
+4. **Autocomprobación exhaustiva:** el sistema realiza pruebas automáticas de todos sus componentes al encender, reportando fallos con alta granularidad.
+
+### ¿Por qué el sistema neumático tiene pocas alarmas?
+
+El sistema neumático es mecánicamente simple: reguladores, válvulas de retención y manómetros. Las fallas se reducen principalmente a pérdida de suministro (baja presión), detectable con un único sensor de presión.
+
+---
+
 
 ## Bibliografía
 
